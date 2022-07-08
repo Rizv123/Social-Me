@@ -1,0 +1,64 @@
+.rightbar{
+    flex :3.5 ;
+}
+.rightbarWrapper{
+    padding: 20px  20px 0 0 ;
+}
+
+.bdayContainer{
+    display: block;
+    align-items: center;
+}
+ .bdayPic{
+    width:50px;
+    height: 50px;
+    margin-right: 10px; 
+ }
+ .bdayText{
+    font-size:15px;
+    font-weight: 400;
+ }
+ .rbAd{
+    width:100%;
+    border-radius: 20px;
+    margin: 20px 0; 
+ }
+
+ .rbTitle{
+    margin-bottom: 20px; 
+ }
+ .rbFriendList{
+    margin: 0;  padding: 0; list-style: none;
+ }
+ 
+
+.rbTitle{
+   font-size: 18px;  margin-bottom: 10px; font-weight: 600;
+}
+
+.rbInfo{
+   margin-bottom:30px ;
+}
+
+.rbInfoItem{
+   margin-bottom: 20px ;
+}
+
+.rbInfoKey{
+     font-weight:500 ; margin-right: 15px; color:rgba(85, 85, 85, 0.932);
+}
+
+.rbInfoValue{
+   font-weight: 300 ; 
+}
+.rbFollowers{
+   display:flex; flex-wrap:wrap; justify-content: space-between;
+}
+.rbFollowing{
+   display:flex; flex-direction: column; margin-bottom: 20px; cursor:pointer;
+}
+.rbFollowingPic{
+   width:100px;  height:100px; object-fit:cover; border-radius: 5px;
+}
+  
+
